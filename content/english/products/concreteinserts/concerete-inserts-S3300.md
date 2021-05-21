@@ -1,5 +1,5 @@
 ---
-title: "Concrete Inserts-S1000CIH"
+title: "Concrete Inserts-S3300CIH"
 date: 2019-10-17T11:22:16+06:00
 image: "/images/products/concreteInserts/concereteInserts2.png"
 images: 
