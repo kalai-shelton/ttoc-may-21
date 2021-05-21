@@ -1,0 +1,24 @@
+table {
+    width:100%;
+    box-shadow: 2px 2px 2px #D0D0D0;
+    margin-top: 60px;
+    margin-left: 20px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+   
+  }
+  th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  th{
+    background-color: #eee;  
+  }
+
+  .dimenImages{
+    width: 100%;
+    height: auto;
+    
+  }

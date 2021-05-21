@@ -1,0 +1,30 @@
+{{ define "main" }}
+
+<section class="section gallery">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5">
+        <h1 class="font-weight-bold">{{.Title}}</h1>
+      </div>
+      {{ range .Params.images }}
+      <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+        <div class="block">
+          <div class="gallery-overlay">
+            <a href="{{ .urlpath }}"class="gallery-popup"> 
+              <i class="tf-ion-plus-round"></i>
+             </a>
+          </div>
+          <img class="img-fluid" src="{{.image_path}}"  alt="{{.caption}}">
+          {{/*  <img class="img-fluid" src="{{range first 1 .image_path}}{{.|absURL}}{{end}}" alt="{{.Title}}">  */}}
+          {{/*  <img class="img-fluid" src="{{range first 1 ..image_path}}{{.|absURL}}{{end}}" alt="{{.Title}}">  */}}
+        </div>
+        <div class="product-info">
+       <h4 class="mb-2"><a href="{{.Permalink}}" class="link-title">{{.caption}}</a></h4>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

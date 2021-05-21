@@ -1,0 +1,42 @@
+---
+title: "Concrete Inserts-S1000CIH"
+date: 2019-10-17T11:22:16+06:00
+image: "/images/products/concreteInserts/concereteInserts2.png"
+images: 
+  - "/images/products/concreteInserts/concerete-insert-dimen2.png"
+  - "/images/products/concreteInserts/concereteInserts2.png"
+  # - "/images/products/channelFittings/channel-fitting1044.jpg"
+  # - "/images/products/channelFittings/channel-fitting1044.jpg"
+  # - "/images/products/channelFittings/channel-fitting1044.jpg"
+
+# meta description
+#description : "this is meta description"
+
+# product Price
+#price: "30.00"
+#discount_price: "25.00"
+
+# product variation
+#colors : ["black","white","gray"]
+#sizes : ["small","medium","large"]
+part1: "S3300CIH"
+
+
+
+
+finish1: "HDG"
+
+
+draft: false
+---
+
+Material : Mild Steel / Stainless Steel 
+
+Foam : Injected Polyurethane
+
+Length : 6 M
+
+Thickness : 2.5 MM
+
+Weight : 12 KG
+

@@ -1,0 +1,11 @@
+{{ with .Site.Params.product }}
+  {{ if .enable }}
+  {{ "<!-- Site Visibility Start -->" | safeHTML }}
+  {{ range site.Params.product }}
+          <li class="nav-item">
+            <a class="nav-link" href="{{if .Pre}}{{site.BaseURL | relLangURL}}{{.Pre}}{{ .URL }}{{else}}{{.URL | absLangURL}}{{end}}">{{ .Name }}</a>
+          </li>
+          {{ end }}
+{{ "<!-- Site Hero End -->" | safeHTML }}
+{{ end }}
+{{ end }}
