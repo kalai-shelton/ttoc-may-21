@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "http://examplesite.com/"
+baseurl = "https://objective-jones-74106a.netlify.app"
 title = "TTOC Pty Ltd Australia, Leading Metal Manufacturer"
 # post excert
 summarylength = "20"
